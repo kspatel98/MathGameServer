@@ -1,0 +1,19 @@
+{
+  "name": "backend-mathgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js","type":"module"
+  },
+  "author": "Kartik",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1353.0",
+    "axios": "^1.2.1",
+    "express": "^4.18.2",
+    "nock": "^13.3.0",
+    "sqlite3": "^5.1.2"
+  }
+}
